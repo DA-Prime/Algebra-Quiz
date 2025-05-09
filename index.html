@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            Author: Daniel Avalos
+            Date: 05/06/2025
+            File Name: index.html
+        -->
+        <title>Timed Algebra Quiz</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img alt="The D-Nerd logo" src="images/D-Nerd Logo.png">
+        </header>
+        <nav></nav>
+        <main>
+            <h1>The timed algebra I quiz</h1>
+            <summary>Welcome to the timed Algebra Quiz. In this quiz you have 2 minutes to take the quiz and whatever answers you get correct will determine your final grade.<br><br> Click the start button to begin.
+            <br><br><span id="warning">Warning: Once you start the quiz you cannot stop it as the button will be disabled until the timer hits 0.</span></summary>
+            <div id="theTimer">
+                <h2>Timer</h2>
+                <br>
+                <input id="timerValue">
+            </div>
+
+            <button id="startQuiz" type="button">"Start the Quiz!!!"</button>
+
+            <div id="theQuiz">
+                <table id="theQuestions" class="noDisplay">
+                    <tr>
+                        <td><label for="qOne">1.) 16 - 2t = 5t + 9</label></td>
+                        <td></td>
+                        <td>t =<input id="qOne" name="qOne" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qTwo">2.) x + 5 = 20</label></td>
+                        <td></td>
+                        <td>x =<input id="qTwo" name="qTwo" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qThree">3.) 2y + 36 = 72</label></td>
+                        <td></td>
+                        <td>y =<input id="qThree" name="qThree" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qFour">4.) 3x + 2 = 5x - 8</label></td>
+                        <td></td>
+                        <td>x =<input id="qFour" name="qFour" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qFive">5.) 4c + 8 = -24</label></td>
+                        <td></td>
+                        <td>c =<input id="qFive" name="qFive" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qSix">6.) -2y + 4 = 2(2y + 5)</label></td>
+                        <td></td>
+                        <td>y =<input id="qSix" name="qSix" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qSeven">7.) 5a - 10 = 40</label></td>
+                        <td></td>
+                        <td>a =<input id="qSeven" name="qSeven" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qEight">8.) 5e - 10 = 7e + 4</label></td>
+                        <td></td>
+                        <td>e =<input id="qEight" name="qEight" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qNine">9.) 2e - 3(e - 4) = 48</label></td>
+                        <td></td>
+                        <td>e =<input id="qNine" name="qNine" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qTen">10.) 5x + 20 = 4x + 10</label></td>
+                        <td></td>
+                        <td>x =<input id="qTen" name="qTen" type="number" required></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="aHint">
+                <p>Hint: If you attempt the quiz again the input boxes will either be displayed in green or red.
+                <br><br><span id="redText">Red = Incorrect</span>
+                <br><span id="greenText">Green = Correct</span>
+                </p>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright D-Nerd.com</p>
+        </footer>
+    </body>
+</html>

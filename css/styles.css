@@ -1,0 +1,159 @@
+/* 
+    Author: Daniel Avalos
+    Date: 05/06/2025
+    File Name: styles.css
+*/
+
+/* Header CSS rules */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(240, 56, 53);
+    height: 200px;
+    border: 1px black solid;
+}
+
+header img {
+    display: block;
+    width: 45%;
+    height: 70%;
+    margin: 2% auto;
+    border: 1px black solid;
+    background-color: white;
+}
+
+/* Main CSS rules */
+h1 {
+    text-align: center;
+    font-size: 2.6em;
+}
+
+summary {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1% auto;
+    width: 40%;
+}
+
+#warning {
+    font-weight: bold;
+}
+
+#theTimer {
+    width: 30%;
+    margin: 2% auto;
+    text-align: center;
+    border: black solid 1px;
+    background-color: #bfbfbf;
+    border-radius: 15px;
+}
+
+#timerValue {
+    display: block;
+    margin: 0.5% auto 1%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    background-color: #353635;
+    color: white;
+    border-radius: 5px;
+    user-select: none;
+}
+
+/* StartButton CSS rules */
+#startQuiz {
+    display: block;
+    width: 15%;
+    height: 50px;
+    margin: 1% auto;
+    text-align: center;
+    border: black solid 1px;
+    background-color: #ebdc54;
+    border-radius: 20px;
+}
+
+#startQuiz:visited {
+    color: navy
+}
+
+#startQuiz:hover {
+    text-decoration: underline;
+}
+
+#theQuiz {
+    width: 50%;
+    margin: 1% auto;
+    border: 1px black solid;
+    background-color: #bfbfbf;
+    border-radius: 3px;
+}
+
+/* Table CSS rules */
+table {
+    margin: 2% auto;
+    text-align: justify;
+}
+
+td {
+    padding: 4% 0;
+}
+
+/* Display On and Off CSS rules */
+.noDisplay {
+    display: none;
+}
+
+.showDisplay {
+    display: block;
+}
+
+.showTable {
+    display: table;
+}
+
+td:nth-of-type(2) {
+    width: 15%;
+}
+
+.rightAns {
+    border: 1px solid darkgreen;
+    background-color: #11fa53;
+}
+
+.wrongAns {
+    border: #bf0808 1px solid;
+    background-color: red;
+}
+
+#aHint {
+    margin: 2% auto;
+    text-align: center;
+    width: 30%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 1%;
+    border: black 3px solid;
+    background-color: #353635;
+    color: white;
+}
+
+#redText {
+    color: red;
+}
+
+#greenText {
+    color: #11fa53;
+}
+
+/* Footer CSS rules */
+footer {
+    display: block;
+    height: 150px;
+    background-color: rgb(240, 56, 53);
+    padding: 2% 2%;
+    text-align: justify;
+}
