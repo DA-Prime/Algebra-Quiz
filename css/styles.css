@@ -28,42 +28,6 @@ header img {
     background-color: white;
 }
 
-/* Nav CSS rules */
-nav {
-    font-size: 24px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 auto;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-}
-
-nav a:link {
-    color: black;
-}
-
-nav a:visited {
-    color: #730791;
-}
-
-nav a:hover {
-    text-decoration: underline;
-} 
-
-nav a:active {
-    color: #082ca1;
-}
-
 /* Main CSS rules */
 main {
     background-color: #333;
